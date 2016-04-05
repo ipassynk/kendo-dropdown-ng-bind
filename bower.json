@@ -1,0 +1,30 @@
+{
+  "name": "kendoDropdownNgBind",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "1.11.3",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.2",
+    "kendo-ui": "^2016.1.322"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.2"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.min.css"
+      ]
+    },
+    "kendo-ui": {
+      "main": [
+        "js/kendo.ui.core.min.js",
+        "js/kendo.angular.min.js",
+        "styles/kendo.common.min.css",
+        "styles/kendo.material.min.css",
+        "styles/kendo.material.mobile.min.css"
+      ]
+    }
+  }
+}
